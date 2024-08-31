@@ -30,13 +30,24 @@ a {
 .nav-link .studio:active {
     color: #404BBF;
 }
-.email,.telefon {
+.email {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     color: #434455;
+    font-style: normal;
 }
-.email,.telefon:hover {
+.telefon {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #434455;
+    font-style: normal;
+}
+.email:hover {
+    color: #404BBF;
+}
+.telefon:hover {
     color: #404BBF;
 }
 .solutions-title {
