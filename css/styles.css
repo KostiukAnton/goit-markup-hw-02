@@ -10,11 +10,11 @@ a {
     text-decoration: none;
 }
 .logo-header {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;
     line-height: 117%;
-    font-family: "Raleway";
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -100,12 +100,14 @@ background-color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 .benefits-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    letter-spacing: 0.02em;
 }
 .team-section {
     background-color: #F4F4FD;
@@ -115,13 +117,20 @@ background-color: #2E2F42;
     font-size: 36px;
     line-height: 111%;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: #2E2F42;
+}
+.team-item {
+    background-color: #FFFFFF;
 }
 .team-item-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
+    
 }
 .team-item-text {
     font-weight: 400;
