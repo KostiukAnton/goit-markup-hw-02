@@ -34,38 +34,20 @@ a {
 .nav-link:focus {
     color: #404bbf;
 }
-.nav-link .studio:active {
-    color: #404BBF;
-}
 .header-address {
     font-style: normal
 }
-.email {
+.address-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
 }
-.telefon {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-}
-.email:hover {
+.address-link:hover {
     color: #404BBF;
 }
-.telefon:hover {
-    color: #404BBF;
-}
-.email:focus {
-    color: #404bbf;
-}
-.telefon:focus {
+.address-link:focus {
     color: #404bbf;
 }
 .hero-section {
