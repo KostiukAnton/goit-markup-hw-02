@@ -9,7 +9,7 @@ ul, ol {
 a {
     text-decoration: none;
 }
-.logo-header {
+.logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -18,7 +18,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.part-header {
+.header-logo .part {
     color: #2E2F42;
 }
 .nav-link {
@@ -148,19 +148,7 @@ background-color: #2E2F42;
 .footer-page {
     background-color: #2E2F42;
 }
-.logo-footer {
-    font-family: "Raleway", sans-serif;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
-    color: #4D5AE5;
-}
-.part-footer {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 117%;
+.footer-logo .part {
     color: #F4F4FD;
 }
 .footer-text {
