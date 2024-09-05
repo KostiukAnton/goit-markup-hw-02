@@ -1,3 +1,4 @@
+/* COMMON STYLES */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -8,13 +9,20 @@ ul, ol {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
+button {
+    cursor: pointer;
+}
+/* /COMMON STYLES */
+
+/* HEDER STYLES */
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #4D5AE5;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
@@ -28,11 +36,9 @@ a {
     color: #2E2F42;
     letter-spacing: 0.02em;
 }
-.nav-link:hover {
-    color: #404BBF
-}
+.nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
+    color: #404BBF
 }
 .header-address {
     font-style: normal
@@ -50,13 +56,16 @@ a {
 .address-link:focus {
     color: #404bbf;
 }
+/* /Heder styles */
+
+/* HERO STYLES */
 .hero-section {
 background-color: #2E2F42;
 }
 .solutions-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -69,14 +78,10 @@ background-color: #2E2F42;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
-    cursor: pointer;
 }
-.solutions-button:hover {
-    background-color: #404BBF
-    ;
-}
+.solutions-button:hover,
 .solutions-button:focus {
-    background-color: #404BBF;
+        background-color: #404BBF;
 }
 .benefits-item {
     font-weight: 500;
@@ -91,13 +96,16 @@ background-color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/* /HERO STYLES */
+
+/* TEAM STYLES */
 .team-section {
     background-color: #F4F4FD;
 }
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
@@ -120,10 +128,13 @@ background-color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em
 }
+/* /TEAM STYLES */
+
+/* PORTFOLIO STYLES */
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -145,6 +156,9 @@ background-color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em
 }
+/* PORTFOLIO STYLES */
+
+/* FOOTER STYLES */
 .footer-page {
     background-color: #2E2F42;
 }
@@ -158,3 +172,4 @@ background-color: #2E2F42;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
+/* /FOOTER STYLES */
